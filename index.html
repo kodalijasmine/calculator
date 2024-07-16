@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Scientific Calculator</h1>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">
+                        <input type="text" id="calculator" readonly>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <table id="sci-b">
+                            <tr>
+                                <td><button id="squaroid">x^2</button></td>
+                                <td><button id="cuboid">x^3</button></td>
+                                <td><button id="anypower">x^4</button></td>
+                            </tr>
+                            <tr>
+                                <td><button id="log-of-b-10">log</button></td>
+                                <td><button id="absolute-value">|x|</button></td>
+                                <td><button id="natural-log">ln</button></td>
+                            </tr>
+                            <tr>
+                                <td><button id="cosine">cos</button></td>
+                                <td><button id="sine">sin</button></td>
+                                <td><button id="tangent">tan</button></td>
+                            </tr>
+                            <tr>
+                                <td><button id="pye">π</button></td>
+                                <td><button id="underroot">√</button></td>
+                                <td><button id="exponent">e</button></td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td>
+                        <table id="num-b">
+                            <tr>
+                                <td><button class="numbers" id="1">1</button></td>
+                                <td><button class="numbers" id="2">2</button></td>
+                                <td><button class="numbers" id="3">3</button></td>
+                            </tr>
+                            <tr>
+                                <td><button class="numbers" id="4">4</button></td>
+                                <td><button class="numbers" id="5">5</button></td>
+                                <td><button class="numbers" id="6">6</button></td>
+                            </tr>
+                            <tr>
+                                <td><button class="numbers" id="7">7</button></td>
+                                <td><button class="numbers" id="8">8</button></td>
+                                <td><button class="numbers" id="9">9</button></td>
+                            </tr>
+                            <tr>
+                                <td class="num-b1"><button class="numbers" id="point">.</button></td>
+                                <td><button class="numbers" id="0">0</button></td>
+                                <td class="num-b1"><button class="numbers" id="percent">%</button></td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td>
+                        <table id="basic-b">
+                            <tr>
+                                <td><button class="operators" id="addition">+</button></td>
+                            </tr>
+                            <tr>
+                                <td><button class="operators" id="subtraction">-</button></td>
+                            </tr>
+                            <tr>
+                                <td><button class="operators" id="multiplication">*</button></td>
+                            </tr>
+                            <tr>
+                                <td><button class="operators" id="division">/</button></td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td>
+                        <table id="clear-b">
+                            <tr>
+                                <td><button class="operators" id="open-sm-brac">(</button></td>
+                                <td><button id="delete-all">AC</button></td>
+                            </tr>
+                            <tr>
+                                <td><button class="operators" id="close-sm-brac">)</button></td>
+                                <td><button id="eraser">CC</button></td>
+                            </tr>
+                            <tr>
+                                <td><button class="operators" id="open-sq-brac">[</button></td>
+                                <td rowspan="2" id="top-most-tab" class="result"><button>=</button></td>
+                            </tr>
+                            <tr>
+                                <td><button class="operators" id="close-sq-brac">]</button></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
