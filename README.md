@@ -1,4 +1,4 @@
-# LGMVIP-Web-Task-04
+# LGMVIP-Web-Task-01
 
 The LGMVIP-Web-Task-04 repository on GitHub contains the source code for a Scientific Calculator web application. This project was completed as part of the Let's Grow More Virtual Internship Program (LGMVIP). The repository houses the code written in HTML, CSS, and JavaScript to create a fully functional scientific calculator.
 
