@@ -1,0 +1,150 @@
+*{
+    font-family: Monaco, monospace;
+}
+
+body{
+    background: url(bg0.jpg);
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em;
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 0.5em;
+    border-radius: 15px;
+    border: 1pt solid white;
+}
+
+header h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main{
+    padding: 0.5em;
+    border-radius: 15px;
+    border: 2pt double white;
+    background-color: #333;
+    box-shadow: 3px 3px 3px rgba(99, 99, 99, 0.3); 
+}
+
+table{
+    width: 100%;
+    font-size: xx-large;
+    border-radius: 15px;
+    border-collapse: collapse;
+    background-color: #333;
+    border-radius: 15px;
+}
+
+table, td, th{
+    border-radius: 5px;
+}
+
+input, button {
+    width: 100%;
+    height: 100%;
+    padding: 0.4em;
+    box-sizing: border-box; 
+    border: 0.4px solid #ccc;
+    border-radius: 5px;
+    font-size: xx-large;
+}
+
+button{
+    background-color: whitesmoke;
+}
+
+td#top-most-tab button{
+    width: 100%;
+    line-height: 100%;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    vertical-align: middle;
+    padding-top: 0.88em;
+    padding-bottom: 0.88em;
+    font-size: xxx-large;
+    background-color: rgb(110, 162, 88);
+}
+
+#basic-b button{
+    background-color: #fdd7fa ;
+    color: #000;
+    border-color: #3e3e3e;
+}
+
+#num-b button{
+    background-color: #f6ffd4;
+    color: #000;
+    border-color: #3e3e3e;
+}
+
+table tr td.num-b1 button {
+    background-color: #eecba6 !important;
+    color: #000 !important;
+    border-color: #3e3e3e !important;
+}
+
+#sci-b button{
+    background-color: #c9ecf9;
+    color: #000;
+    border-color: #3e3e3e;
+}
+
+#clear-b button{
+    background-color: rgb(142, 181, 181) ;
+    color: #000;
+    border-color: #3e3e3e;
+}
+
+#basic-b button:hover{
+    background-color:  #fa9df3;
+    color: white ;
+    transition: all 0.5s ease-in-out ;
+} 
+
+#num-b button:hover{
+    background-color:  #e4fd89;
+    color: black;
+    transition: all 0.5s ease-in-out;
+} 
+
+.num-b1 button:hover{
+    background-color:  #edb477 !important;
+    color: white !important;
+    transition: all 0.5s ease-in-out !important;
+}
+
+#sci-b button:hover{
+    background-color:  #59c6ee ;
+    color: white ;
+    transition: all 0.5s ease-in-out ;
+}
+
+#clear-b button:hover{
+    background-color:  teal;
+    color: white !important;
+    transition: all 0.5s ease-in-out !important;
+}
+
+td#top-most-tab button:hover{
+    background-color: rgb(82, 162, 47) !important;
+    color: #fff !important;
+    transition: all 0.5s ease-in-out !important;
+}
+
+button:active {
+    background-color:  #33a1ff;
+}
+  
+button:focus {
+    outline: none; 
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.3); 
+}
+  
